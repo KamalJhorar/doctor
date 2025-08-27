@@ -1,0 +1,48 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+
+*{
+  font-family: outfit;
+}
+
+@theme {
+  --color-primary: #5f6FFF;
+}
+@layer components {
+  /* Base nav link style */
+  .nav-link {
+    @apply flex flex-col items-center font-medium py-1;
+  }
+
+  /* Custom underline */
+  .nav-underline {
+    @apply border-none outline-none h-0.5 bg-primary w-3/5 m-auto transition-all duration-300;
+  }
+
+  /* Active state shows underline */
+  .nav-underline-active {
+    @apply block;
+  }
+
+  /* Inactive state hides underline */
+  .nav-underline-hidden {
+    @apply hidden;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+}
+@media (max-width:740px){
+  .active p{
+    @apply text-white bg-primary
+  }
+}

@@ -25,10 +25,11 @@ const Footer = () => {
           {/* last */}
            <div>
              <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
-             <ul className='flex flex-col gap-2 text-gray-600 '>
+             <ul className='flex flex-col gap-2 text-gray-600 mb-10 '>
                 <li>+91-9875821128</li>
                 <li>prescripto@gmail.com</li>
              </ul>
+              <a className=' text-gray-600 ' href="https://doctor-appointment-a.onrender.com">Doctor Dashboard</a>
            </div>
         </div> 
         {/* copyright text */}

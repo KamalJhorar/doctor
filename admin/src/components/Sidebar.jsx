@@ -47,7 +47,7 @@ const Sidebar = () => {
                 
             </ul>
         }
-   <div className='text-gray-600 w-40 ml-6 mt-124  py-1 px-2 rounded-full border border-gray-500  hover:bg-primary hover:text-white '> <a className='' href="https://doctor-appointment-f.onrender.com">Patient Dashboard</a></div>
+   <div className='text-gray-600 w-40 ml-6 mt-112  py-1 px-2 rounded-full border border-gray-500  hover:bg-primary hover:text-white '> <a className='' href="https://doctor-appointment-f.onrender.com">Patient Dashboard</a></div>
 
     </div>
   )
